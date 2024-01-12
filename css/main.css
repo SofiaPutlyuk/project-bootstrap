@@ -92,6 +92,25 @@ li {
     height: 62px;
   }
 }
+.cards {
+  display: flex;
+  width: 480px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (min-width: 1440px) {
+  .cards {
+    display: flex;
+    width: 550px;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .card {
+    width: 550px;
+  }
+}
 body {
   background-color: black;
 }
